@@ -23,11 +23,10 @@ In this section we will look how to set-up everything in system and get your app
 ### Steps to create database and store some data
 1. Open terminal and type ```mongosh```.
 2. Create a db and create a collection in it.
-3. Create a document (use command: 
+3. Create a document - use command: 
 ```bash
 db.collection_name.insertOne({"key":"value"})
 ```
-).
 
 Now your database is created and has some data in it.
 
