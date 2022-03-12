@@ -36,17 +36,18 @@ That's it!! Now you can create a react-app and fetch the API in it and show some
 
 #### Q1. I am unable to connect with MongoDB even after installing it correctly. How to solve this?
 
-##### Ans. To connect with your database you need to start your MongoDB service.
-1. search for Services, for that search using the left bottom corner search option.
+##### Ans. To connect with the database "MongoDB service" needs to be running, although the service starts running after we install the MongoDB but sometimes this does not happens and in this case, we need to start the service manually.
 
-2. then there is a gear icon named with 'Services'.
+To start your "MongoDB server (MongoDB)" service, follow the below mentioned steps:
 
-3. after clicking that you will get a window with a lot of services
+1. Search for "services", using the search option in windows (right side to windows logo button).
 
-4. scroll down and you will find 'MongoDB server (MongoDB)'.
+2. A "Services" app will appear with "gear" icon, click this.
 
-5. so you will see that there is an option to start the service.
+3. A window will popup with a lots of services.
 
-6. start it.
+4. Scroll down and look for 'MongoDB server (MongoDB)'.
 
-Now try to connect again using any terminal & that's it you are good to go!!
+5. Right click on the 'MongoDB server (MongoDB)' & start this service manually.
+
+That's it!! Now try to connect again by using any terminal & you are good to go 😊
